@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_inner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#727272"
+        android:textColor="#ffffff"
+        android:text="Inner Class"
+        />
+
+    <Button
+        android:id="@+id/btn_themes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#727272"
+        android:textColor="#ffffff"
+        android:text="Material Design Themes"
+        />
+
+    <Button
+        android:id="@+id/btn_vector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#727272"
+        android:textColor="#ffffff"
+        android:text="Vector Drawbles"
+        />
+
+    <Button
+        android:id="@+id/btn_color_pallete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#727272"
+        android:textColor="#ffffff"
+        android:text="Color Palette"
+        />
+
+    <Button
+        android:id="@+id/btn_crd_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#727272"
+        android:textColor="#ffffff"
+        android:text="Coordinator Layout"
+        />
+
+
+</LinearLayout>
+</ScrollView>
