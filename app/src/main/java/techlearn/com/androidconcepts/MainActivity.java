@@ -9,6 +9,8 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnInnerClass;
+    private Button btnAppbar;
+    private Button btn_crd_lyt;
 
 
     @Override
@@ -24,10 +26,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initUI(){
 
         btnInnerClass = (Button) findViewById(R.id.btn_inner);
+        btnAppbar = (Button) findViewById(R.id.btn_appbar);
+        btn_crd_lyt = (Button) findViewById(R.id.btn_crd_lyt);
     }
 
     private void setListener(){
         btnInnerClass.setOnClickListener(this);
+        btnAppbar.setOnClickListener(this);
+        btn_crd_lyt.setOnClickListener(this);
 
     }
 
@@ -42,6 +48,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                  intent = new Intent(MainActivity.this, InnerClassActivity.class);
                  startActivity(intent);
+
+                break;
+
+            case R.id.btn_appbar:
+
+                intent = new Intent(MainActivity.this, AppbarActivity.class);
+                startActivity(intent);
+
+                break;
+
+
+            case R.id.btn_crd_lyt:
+
+                intent = new Intent(MainActivity.this, CoordinatorActivity.class);
+                startActivity(intent);
 
                 break;
         }
